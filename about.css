@@ -4,12 +4,30 @@ body{
 	padding: 0;
 	font-family: Century Gothic;
 }
+.nav{22
 
+  position: fixed;
+  float: right;
+
+/*  position: absolute; */
+  height: 30px;
+  
+    top: 0%;
+    left: 50%;
+
+    /*transform: translate(-50%, -50%);*/
+    padding: 100px;
+   margin-top: 00px;
+   margin-bottom: 40px;
+   margin-left: 20px;
+   font-size: 30px;
+
+}
 
 .header{
 	height: 100vh;
 	width: 100%;
-    background: url(bg8.jpg)no-repeat;
+    background: url(bg7.jpg)no-repeat;
     background-size: cover;
     background-position: center;
     text-align: left;
@@ -26,61 +44,5 @@ body{
 	transform: translate(-50%, -50%);
 }
 
-/* ----------------- Footer --------------------- */
-footer.footer{
-height: 100%;
-background-color: black;
-position: relative;
-}
-footer.footer .container{
-display: grid;
-grid-template-columns: repeat(4, 1fr);
-}
-footer.footer .container > div{
-flex-grow: 1;
-flex-basis: 0;
-padding: 3rem .9rem;
-}
-footer.footer .container h2{
-color: var(--white);
-}
-footer.footer .resources li a{
-font-family: var(--Lexend);
-font-size: 1.2rem;
-}
-footer.footer .resources li a:hover{
-color: red;
-}
-footer.footer .instagram div > img{
-display: inline-block;
-width: 25%;
-height: 50%;
-margin: .3rem .4rem;
-}
-footer.footer .follow div i{
-color: var(--white);
-padding: 0 .4rem;
-}
-footer.footer .follow div i:hover{
-color: red;
-}
-footer.footer .rights{
-justify-content: center;
-font-family: var(--Josefin);
-}
-footer.footer .rights h4 a{
-color: var(--white);
-}
-footer.footer .move-up{
-position: absolute;
-right: 6%;
-top: 50%;
-}
-footer.footer .move-up span{
-color: var(--midnight);
-}
-footer.footer .move-up span:hover{
-color: red;
-cursor: pointer;
-}
-/* ---------x------- Footer ----------x---------- */
+
+
